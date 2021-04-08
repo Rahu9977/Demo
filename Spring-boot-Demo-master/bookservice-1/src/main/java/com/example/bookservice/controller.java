@@ -31,7 +31,7 @@ public class controller {
 		todos.add(new Book(222,"ssd",323));
 	}
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public List<Book> findAll() {
 		System.out.println("DD"+todos);
 		return todos;
